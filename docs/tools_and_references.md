@@ -55,3 +55,34 @@ Recomendadas para brainstorming e esboço visual da modelagem:
 - GitHub
 
 O repositório foi organizado seguindo boas práticas:
+
+
+<img width="940" height="413" alt="Screenshot_20251210-031615" src="https://github.com/user-attachments/assets/39456320-86d2-4c68-8fbf-2c14f0a03322" />
+
+
+
+---
+
+# 📚 Referências de Estudo
+
+### Modelagem de Grafos
+- *Graph Databases* — O’Reilly  
+- Neo4j Graph Data Modeling → https://neo4j.com/developer/data-modeling/
+
+### AuraDB
+- Guia completo Aura → https://neo4j.com/developer/aura/
+
+### Cypher
+- Refcard Cypher → https://neo4j.com/docs/cypher-refcard/
+- Manual oficial Cypher → https://neo4j.com/docs/cypher-manual/
+
+---
+
+# ✔ Conclusão
+
+Estas ferramentas e referências foram essenciais para manter o projeto estruturado, didático e alinhado com boas práticas de modelagem em grafos.
+
+
+
+---
+
