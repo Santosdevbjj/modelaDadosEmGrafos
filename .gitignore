@@ -1,0 +1,47 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios temporários
+tmp/
+temp/
+.cache/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (se usado em scripts auxiliares)
+__pycache__/
+*.pyc
+
+# Node (caso futuramente use ferramentas JS)
+node_modules/
+
+# Ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Neo4j Desktop (caso exporte)
+neo4j.log
+debug.log
+
+# Imagens geradas temporariamente
+assets/*.tmp.png
+
+# Exportações
+export/
