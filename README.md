@@ -19,10 +19,43 @@ Projeto: Modelagem de Dados em Grafos de um Serviço de Streaming
 
 ---
 
+**Requisitos de Software:**
+
+​Conta no GitHub: Para clonar o repositório e versionar o projeto.
+​Navegador Web: Para acessar o Neo4j AuraDB Free e o Neo4j Browser.
+​Um Editor de Texto/IDE: (Ex: VS Code, Sublime Text) para editar os arquivos .md e .cypher.
+
+**​Requisitos de Hardware**
+
+​Os requisitos são mínimos, pois o banco de dados principal será hospedado na nuvem (Neo4j AuraDB Free). Um computador padrão com acesso à internet é suficiente.
+
+---
 
 
 
+**2. 🗺️ Modelagem Conceitual do Grafo
+​Componentes (Nós - Nodes)**
 
+**​Seguindo as boas práticas (Label com Letra maiúscula):**
+​:User (Usuário)
+​:Movie (Filme)
+​:Series (Série)
+​:Genre (Gênero)
+​:Actor (Ator)
+​:Director (Diretor) 
+
+**​Relacionamentos (Relationships)**
+
+​Seguindo as boas práticas (Relacionamentos em MAIÚSCULAS, nomes duplos com underline):
+
+​:WATCHED (Assistiu): (:User) \rightarrow (:Movie) ou (:Series)
+​:IS_IN_GENRE (É do Gênero): (:Movie) ou (:Series) \rightarrow (:Genre)
+​:ACTED_IN (Atuou em): (:Actor) \rightarrow (:Movie) ou (:Series)
+​:DIRECTED (Dirigiu): (:Director) \rightarrow (:Movie) ou (:Series)
+
+
+
+---
 
 
 
