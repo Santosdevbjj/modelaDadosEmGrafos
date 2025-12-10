@@ -1,18 +1,26 @@
-%% Diagrama de alto nível (Entidades e Relacionamentos)
-graph LR
-  User((User))
-  Movie((Movie))
-  Series((Series))
-  Genre((Genre))
-  Actor((Actor))
-  Director((Director))
+# Diagrama de Modelagem em Grafos (Mermaid)
 
-  User -- WATCHED --> Movie
-  User -- RATED --> Movie
-  User -- FOLLOWS --> User
-  Actor -- ACTED_IN --> Movie
-  Director -- DIRECTED --> Movie
-  Movie -- HAS_GENRE --> Genre
-  Series -- HAS_GENRE --> Genre
-  Actor -- ACTED_IN --> Series
-  Director -- DIRECTED --> Series
+Este diagrama representa a modelagem de dados de um serviço de streaming utilizando Neo4j.
+
+```mermaid
+graph LR
+    %% Nós principais
+    U[User]
+    M[Movie]
+    S[Series]
+    G[Genre]
+    A[Actor]
+    D[Director]
+
+    %% Relacionamentos
+    U -->|WATCHED| M
+    U -->|WATCHED| S
+
+    M -->|HAS_GENRE| G
+    S -->|HAS_GENRE| G
+
+    A -->|ACTED_IN| M
+    A -->|ACTED_IN| S
+
+    D -->|DIRECTED| M
+    D -->|DIRECTED| S
