@@ -1,6 +1,6 @@
 ---
 
-# ✅ **docs/model_description.md**
+# **docs/model_description.md**
 
 ```markdown
 # Descrição da Modelagem de Dados em Grafos – Serviço de Streaming
@@ -8,7 +8,7 @@
 Este documento descreve a modelagem lógica e conceitual utilizada neste projeto, implementada em Neo4j AuraDB Free.
 
 ---
-```
+
 
 ## 📌 Objetivos da Modelagem
 
