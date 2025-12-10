@@ -1,6 +1,6 @@
 ---
 
-# 📄 **3. docs/whiteboard_examples.md**
+📄 **3. docs/whiteboard_examples.md**
 
 # Exemplos de Modelagem em Lousas Digitais
 
