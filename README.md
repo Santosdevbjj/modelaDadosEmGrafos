@@ -82,7 +82,7 @@ Construir um grafo funcional e completo, contendo:
 
 ---
 
-🔹 **.gitignore**
+• **.gitignore**
 
 Ignora arquivos temporários do sistema operacional, IDEs, logs e configurações sensíveis:
 
