@@ -2,7 +2,6 @@
 
 # 📄 **3. docs/whiteboard_examples.md**
 
-```markdown
 # Exemplos de Modelagem em Lousas Digitais
 
 Este documento apresenta ideias de como você pode montar a modelagem em ferramentas como **Miro**, **Excalidraw** ou **Microsoft Whiteboard**.
