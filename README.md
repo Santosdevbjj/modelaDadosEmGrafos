@@ -51,10 +51,14 @@ Construir um grafo funcional e completo, contendo:
 • documentação clara e didática.
 
 
+---
+
 **Tudo pronto para rodar em:**
 
 ✔ Neo4j AuraDB Free (recomendado)
+
 ✔ Neo4j Desktop
+
 
 
 ---
