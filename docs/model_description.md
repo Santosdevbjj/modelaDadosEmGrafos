@@ -1,6 +1,6 @@
 ---
 
-# ✅ **docs/model_description.md**
+# **docs/model_description.md**
 
 
 # Descrição da Modelagem de Dados em Grafos – Serviço de Streaming
