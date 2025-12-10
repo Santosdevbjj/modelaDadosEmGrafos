@@ -38,20 +38,30 @@ Projeto: Modelagem de Dados em Grafos de um Serviço de Streaming
 
 **​Seguindo as boas práticas (Label com Letra maiúscula):**
 ​:User (Usuário)
+
 ​:Movie (Filme)
+
 ​:Series (Série)
+
 ​:Genre (Gênero)
+
 ​:Actor (Ator)
-​:Director (Diretor) 
+
+​:Director (Diretor)
+
 
 **​Relacionamentos (Relationships)**
 
 ​Seguindo as boas práticas (Relacionamentos em MAIÚSCULAS, nomes duplos com underline):
 
 ​:WATCHED (Assistiu): (:User) \rightarrow (:Movie) ou (:Series)
+
 ​:IS_IN_GENRE (É do Gênero): (:Movie) ou (:Series) \rightarrow (:Genre)
+
 ​:ACTED_IN (Atuou em): (:Actor) \rightarrow (:Movie) ou (:Series)
+
 ​:DIRECTED (Dirigiu): (:Director) \rightarrow (:Movie) ou (:Series)
+
 
 
 
