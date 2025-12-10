@@ -255,7 +255,7 @@ Limpa completamente o banco:
 
 MATCH (n) DETACH DELETE n;
 
-2. import_all.cypher
+**2. import_all.cypher**
 
 Script único, que importa tudo:
 
@@ -275,7 +275,7 @@ AuraDB Free
 Neo4j Desktop
 
 
-3. queries_advanced.cypher
+**3. queries_advanced.cypher**
 
 Consultas analíticas avançadas:
 
@@ -331,12 +331,18 @@ Dataset completo:
 Tecnologia	Função
 
 Neo4j AuraDB Free	Banco de dados de grafos em nuvem
+
 Cypher Query Language	Linguagem de consulta declarativa
+
 Mermaid.js	Diagramas em Markdown
 PNG Diagram	Apresentações e comunicação visual
+
 Arrows.app	Modelagem gráfica visual
+
 Neo4j Browser	Interface de execução de queries
+
 Neo4j Desktop	Ambiente local para testes
+
 
 
 
@@ -443,11 +449,17 @@ MATCH (a)-[r]->(b) RETURN a,r,b LIMIT 100;
 
 graph TD
     User -->|WATCHED| Movie
+    
     Actor -->|ACTED_IN| Movie
+    
     Director -->|DIRECTED| Movie
+    
     Movie -->|HAS_GENRE| Genre
+    
     User -->|LIKES| Genre
+    
     User -->|FOLLOWS| User
+    
 
 
 ---
@@ -475,11 +487,17 @@ Cientistas de Dados que querem migrar para Graph Data Science
 **Ao final você terá:**
 
 ✔ Um grafo completo de streaming
+
 ✔ Scripts profissionais
+
 ✔ Documentação corporativa
+
 ✔ Dataset pronto
+
 ✔ Consultas avançadas
+
 ✔ Portfolio excepcional para LinkedIn / GitHub
+
 
 
 ---
@@ -491,14 +509,6 @@ Sérgio Santos
 
 
 ---
-
-
-
-
-
-
-
-
 
 
 
