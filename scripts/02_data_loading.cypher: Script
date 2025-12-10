@@ -1,0 +1,67 @@
+// --- 1. Gêneros ---
+MERGE (g:Genre {name: 'Ação'});
+MERGE (g:Genre {name: 'Ficção Científica'});
+MERGE (g:Genre {name: 'Aventura'});
+MERGE (g:Genre {name: 'Fantasia'});
+MERGE (g:Genre {name: 'Drama'});
+MERGE (g:Genre {name: 'Comédia'});
+
+// --- 2. Diretores (Simplificado, apenas alguns para demonstração) ---
+MERGE (d:Director {name: 'James Cameron'});
+MERGE (d:Director {name: 'Anthony Russo'});
+MERGE (d:Director {name: 'Steven Spielberg'});
+MERGE (d:Director {name: 'Ridley Scott'});
+MERGE (d:Director {name: 'Robert Zemeckis'});
+
+// --- 3. Atores ---
+MERGE (a:Actor {name: 'Robert Downey Jr.'});
+MERGE (a:Actor {name: 'Sam Worthington'});
+MERGE (a:Actor {name: 'Harrison Ford'});
+MERGE (a:Actor {name: 'Tom Holland'});
+MERGE (a:Actor {name: 'Chris Pratt'});
+MERGE (a:Actor {name: 'Vin Diesel'});
+MERGE (a:Actor {name: 'Daniel Radcliffe'});
+MERGE (a:Actor {name: 'Tom Hanks'});
+MERGE (a:Actor {name: 'Michael J. Fox'});
+MERGE (a:Actor {name: 'Russell Crowe'});
+
+// --- 4. Filmes, Relacionamentos de Gênero e Diretor ---
+// #1 Vingadores: Ultimato (2019)
+MERGE (m1:Movie {title: 'Vingadores: Ultimato', year: 2019})
+MERGE (m1)-[:IS_IN_GENRE]->(:Genre {name: 'Ação'})
+MERGE (m1)-[:IS_IN_GENRE]->(:Genre {name: 'Ficção Científica'})
+MERGE (m1)-[:DIRECTED]->(:Director {name: 'Anthony Russo'})
+
+// #2 Avatar: O Caminho da Água (2022)
+MERGE (m2:Movie {title: 'Avatar: O Caminho da Água', year: 2022})
+MERGE (m2)-[:IS_IN_GENRE]->(:Genre {name: 'Ficção Científica'})
+MERGE (m2)-[:IS_IN_GENRE]->(:Genre {name: 'Aventura'})
+MERGE (m2)-[:DIRECTED]->(:Director {name: 'James Cameron'})
+
+// ... Repetir para os 8 filmes restantes seguindo o padrão...
+
+// #8 Forrest Gump: O Contador de Histórias (1994)
+MERGE (m8:Movie {title: 'Forrest Gump: O Contador de Histórias', year: 1994})
+MERGE (m8)-[:IS_IN_GENRE]->(:Genre {name: 'Drama'})
+MERGE (m8)-[:DIRECTED]->(:Director {name: 'Robert Zemeckis'})
+
+// #10 Gladiador (2000)
+MERGE (m10:Movie {title: 'Gladiador', year: 2000})
+MERGE (m10)-[:IS_IN_GENRE]->(:Genre {name: 'Ação'})
+MERGE (m10)-[:DIRECTED]->(:Director {name: 'Ridley Scott'})
+
+// --- 5. Relacionamentos Ator -> Filme ---
+MATCH (a:Actor {name: 'Robert Downey Jr.'}), (m:Movie {title: 'Vingadores: Ultimato'}) MERGE (a)-[:ACTED_IN]->(m);
+MATCH (a:Actor {name: 'Sam Worthington'}), (m:Movie {title: 'Avatar: O Caminho da Água'}) MERGE (a)-[:ACTED_IN]->(m);
+// ... Repetir para os 8 atores restantes ...
+MATCH (a:Actor {name: 'Russell Crowe'}), (m:Movie {title: 'Gladiador'}) MERGE (a)-[:ACTED_IN]->(m);
+
+// --- 6. Usuários e Relacionamentos de Visualização ---
+// 10 Usuários
+UNWIND range(1, 10) AS i
+MERGE (u:User {id: 'user_' + i, name: 'Usuário ' + i});
+
+// Exemplos de Visualização (WATCHED)
+MATCH (u:User {id: 'user_1'}), (m:Movie {title: 'Vingadores: Ultimato'}) MERGE (u)-[:WATCHED]->(m);
+MATCH (u:User {id: 'user_1'}), (m:Movie {title: 'Forrest Gump: O Contador de Histórias'}) MERGE (u)-[:WATCHED]->(m);
+MATCH (u:User {id: 'user_5'}), (m:Movie {title: 'Avatar: O Caminho da Água'}) MERGE (u)-[:WATCHED]->(m);
