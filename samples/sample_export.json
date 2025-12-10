@@ -1,0 +1,34 @@
+{
+  "users": [
+    { "id": "user_1", "name": "Sérgio Santos" },
+    { "id": "user_2", "name": "Ana Oliveira" },
+    { "id": "user_3", "name": "João Pereira" }
+  ],
+  "movies": [
+    { "title": "Vingadores: Ultimato", "year": 2019 },
+    { "title": "Avatar: O Caminho da Água", "year": 2022 },
+    { "title": "Star Wars: O Despertar da Força", "year": 2015 }
+  ],
+  "genres": [
+    { "name": "Ação" },
+    { "name": "Aventura" },
+    { "name": "Ficção_Cientifica" }
+  ],
+  "actors": [
+    { "name": "Robert Downey Jr." },
+    { "name": "Sam Worthington" },
+    { "name": "Harrison Ford" }
+  ],
+  "directors": [
+    { "name": "James Cameron" },
+    { "name": "J.J. Abrams" },
+    { "name": "Anthony Russo" }
+  ],
+  "relationships": [
+    { "from": "user_1", "to": "Vingadores: Ultimato", "type": "WATCHED" },
+    { "from": "user_1", "to": "Avatar: O Caminho da Água", "type": "WATCHED" },
+    { "from": "Robert Downey Jr.", "to": "Vingadores: Ultimato", "type": "ACTED_IN" },
+    { "from": "James Cameron", "to": "Avatar: O Caminho da Água", "type": "DIRECTED" },
+    { "from": "Star Wars: O Despertar da Força", "to": "Ficção_Cientifica", "type": "HAS_GENRE" }
+  ]
+}
