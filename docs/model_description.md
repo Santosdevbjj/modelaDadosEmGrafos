@@ -8,6 +8,7 @@
 Este documento descreve a modelagem lógica e conceitual utilizada neste projeto, implementada em Neo4j AuraDB Free.
 
 ---
+```
 
 ## 📌 Objetivos da Modelagem
 
