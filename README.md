@@ -24,6 +24,9 @@ O projeto é adequado para aprendizado, portfolio profissional, estudos de ciên
 
 🧠 **Objetivo do Projeto**
 
+<img width="808" height="407" alt="Screenshot_20251210-051436" src="https://github.com/user-attachments/assets/de52e7d9-8b33-4e1d-bb40-be13dcf9e0ce" />
+
+
 Construir um grafo funcional e completo, contendo:
 
 • Usuários
@@ -57,6 +60,9 @@ Construir um grafo funcional e completo, contendo:
 ---
 
 **Tudo pronto para rodar em:**
+
+<img width="2400" height="1080" alt="Screenshot_20251210-050408" src="https://github.com/user-attachments/assets/ec4a4610-249f-42ad-b599-985876ed62d3" />
+
 
 ✔ Neo4j AuraDB Free (recomendado)
 
