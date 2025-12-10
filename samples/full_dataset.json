@@ -1,0 +1,55 @@
+{
+  "users": [
+    { "id": "user_1", "name": "Sérgio Santos" },
+    { "id": "user_2", "name": "Ana Oliveira" },
+    { "id": "user_3", "name": "Carlos Eduardo" },
+    { "id": "user_4", "name": "Fernanda Lima" },
+    { "id": "user_5", "name": "João Pereira" },
+    { "id": "user_6", "name": "Marina Costa" },
+    { "id": "user_7", "name": "Rafael Braga" },
+    { "id": "user_8", "name": "Beatriz Gomes" },
+    { "id": "user_9", "name": "Lucas Ferreira" },
+    { "id": "user_10", "name": "Thiago Silva" }
+  ],
+  "movies": [
+    { "title": "Vingadores: Ultimato", "year": 2019 },
+    { "title": "Avatar: O Caminho da Água", "year": 2022 },
+    { "title": "Star Wars: O Despertar da Força", "year": 2015 },
+    { "title": "Homem-Aranha: Sem Volta Para Casa", "year": 2021 },
+    { "title": "Jurassic World: O Mundo dos Dinossauros", "year": 2015 },
+    { "title": "Velozes e Furiosos 7", "year": 2015 },
+    { "title": "Harry Potter e a Pedra Filosofal", "year": 2001 },
+    { "title": "Forrest Gump: O Contador de Histórias", "year": 1994 },
+    { "title": "De Volta para o Futuro", "year": 1985 },
+    { "title": "Gladiador", "year": 2000 }
+  ],
+  "actors": [
+    { "name": "Robert Downey Jr." },
+    { "name": "Sam Worthington" },
+    { "name": "Harrison Ford" },
+    { "name": "Tom Holland" },
+    { "name": "Chris Pratt" },
+    { "name": "Vin Diesel" },
+    { "name": "Daniel Radcliffe" },
+    { "name": "Tom Hanks" },
+    { "name": "Michael J. Fox" },
+    { "name": "Russell Crowe" }
+  ],
+  "genres": [
+    { "name": "Ação" },
+    { "name": "Aventura" },
+    { "name": "Ficção_Cientifica" },
+    { "name": "Drama" },
+    { "name": "Fantasia" }
+  ],
+  "directors": [
+    { "name": "James Cameron" },
+    { "name": "J.J. Abrams" },
+    { "name": "Jon Watts" },
+    { "name": "Colin Trevorrow" },
+    { "name": "James Wan" },
+    { "name": "Chris Columbus" },
+    { "name": "Robert Zemeckis" },
+    { "name": "Ridley Scott" }
+  ]
+}
