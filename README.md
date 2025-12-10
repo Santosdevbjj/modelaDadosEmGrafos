@@ -447,13 +447,13 @@ https://console.neo4j.io
 
 🔎 **Validação Final**
 
-Após a importação, execute:
+• Após a importação, execute:
 
-MATCH (n) RETURN n LIMIT 50;
+• MATCH (n) RETURN n LIMIT 50;
 
-Ou visualize os relacionamentos:
+• Ou visualize os relacionamentos:
 
-MATCH (a)-[r]->(b) RETURN a,r,b LIMIT 100;
+• MATCH (a)-[r]->(b) RETURN a,r,b LIMIT 100;
 
 
 ---
@@ -473,23 +473,28 @@ graph TD
     
     User -->|FOLLOWS| User
     
+---
+
+**Modelagem de Grafos - Streaming**
+
+<img width="1080" height="717" alt="Modelagem_Grafos_Streaming" src="https://github.com/user-attachments/assets/803c3d01-9500-4a02-a498-97729a02a090" />
 
 
 ---
 
 🧑‍🎓 **Para Quem Este Projeto é Ideal**
 
-Estudantes de Grafos
+• Estudantes de Grafos
 
-Analistas de Dados
+• Analistas de Dados
 
-Engenheiros de Dados
+• Engenheiros de Dados
 
-Profissionais de IA
+• Profissionais de IA
 
-Desenvolvedores back-end
+• Desenvolvedores back-end
 
-Cientistas de Dados que querem migrar para Graph Data Science
+• Cientistas de Dados que querem migrar para Graph Data Science
 
 
 
