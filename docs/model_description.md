@@ -1,6 +1,5 @@
 ---
-
-# **docs/model_description.md**
+ **docs/model_description.md**
 
 ```markdown
 # Descrição da Modelagem de Dados em Grafos – Serviço de Streaming
