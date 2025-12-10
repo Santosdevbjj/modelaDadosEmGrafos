@@ -10,6 +10,9 @@
 
 📘 **Modelagem de Dados em Grafos – Serviço de Streaming (Neo4j AuraDB / Desktop)**
 
+<img width="1080" height="687" alt="ModelagemDadosEmGrafos" src="https://github.com/user-attachments/assets/97683f37-c4b1-48b6-ae2c-7fabd0ef1d34" />
+
+
 Este repositório apresenta um projeto completo de modelagem de dados em grafos para um Serviço de Streaming, utilizando as melhores práticas em Neo4j.
 
 O objetivo é demonstrar como aplicar conceitos de Grafos para representar usuários, filmes, séries, atores, diretores e gêneros, além de fornecer scripts de criação, consultas e automação.
