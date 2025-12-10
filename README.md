@@ -37,6 +37,7 @@ Projeto: Modelagem de Dados em Grafos de um Serviço de Streaming
 ​Componentes (Nós - Nodes)**
 
 **​Seguindo as boas práticas (Label com Letra maiúscula):**
+
 ​:User (Usuário)
 
 ​:Movie (Filme)
